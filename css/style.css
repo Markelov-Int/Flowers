@@ -1,0 +1,537 @@
+@font-face {
+    font-family: 'Gotham Pro Light';
+    src: url('../fonts/GothamPro-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+@font-face {
+    font-family: 'Gotham Pro Medium ';
+    src: url('../fonts/GothamPro-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('../fonts/GothamPro.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }      
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+body{
+    background-color: #292929;
+    color: #fff;
+    font-family: 'Gotham Pro', sans-serif;
+    margin: 0;
+}
+.header{
+    padding-top: 50px;
+    background: url('https://w-dog.ru/wallpapers/15/13/418896615047167.jpg') no-repeat center;
+    background-size: cover;
+}
+
+
+.text-color-red{
+    color: #ff3469 ;
+    font-family: "Gotham Pro Medium ";
+}
+.header-descriptoin{
+    font-family: "Gotham Pro Light";
+    letter-spacing: 0.12px;
+    font-size: 12px;
+}
+.header-phone{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: right;
+    font-weight: 500;
+    display: block;
+    
+}
+.header-info{
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 7px;
+    text-align: right;
+    display: block;
+}
+.callback{
+    color: #ff3469;
+    text-align: right;
+    display: block;
+    margin-top: 16px;
+    font-size: 16px;
+}
+.hero{
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 77px;
+    border-bottom: 1px solid #4c4c4c;
+    background: url('https://w-dog.ru/wallpapers/15/13/418896615047167.jpg') no-repeat center;
+    background-size: cover;
+    
+    
+}
+.hero-title{
+    font-size: 34px;
+    margin: auto;
+    margin-bottom: 34px;
+    text-transform:  uppercase;
+    line-height: normal;
+    letter-spacing: 0.34px;
+    font-family: "Gotham Pro Medium ";
+    max-width: 652px;
+}
+.hero-description{
+    font-family: "Gotham Pro Light"; 
+    font-size: 18px;
+    text-transform:  uppercase;
+    letter-spacing: 0.18px;
+    line-height: 1.4;
+    margin: auto;
+    max-width: 590px;
+}
+.hero-cta{
+   display: block;
+   font-size: 19px;
+   text-transform:  uppercase;
+  
+   margin-bottom: 36px;
+   font-family: "Gotham Pro Light";
+}
+.flowers-slider{
+    width: 100%;
+    margin-bottom: 83px;
+    margin-top: 87px;
+    text-align: center;
+}
+:root {
+    --swiper-navigation-size: 18px;
+}
+.swiper-button-prev{
+    color:#ff3469;
+}
+.swiper-button-next{
+    color:#ff3469;
+}
+.swiper-button-prev:hover{
+    color:rgb(120, 120, 120);
+}
+.swiper-button-next:hover{
+    color:rgb(120, 120, 120);
+}
+button .swiper-button-prev{
+   background-color: black;
+
+}
+
+.button{
+    display: inline-block;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #ff2e55;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    padding-left: 65px;
+    padding-right: 65px;
+    margin-top: 36px;
+    cursor: pointer;
+    border: none;
+}
+.reviews{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background: url('https://w-dog.ru/wallpapers/15/13/418896615047167.jpg') no-repeat center;
+    background-size: cover;
+}
+}
+.reviews-slider{
+    margin-top: 98px;
+}
+.review-slide{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.review-image{
+    width: 220px;
+    height: 220px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    overflow: hidden;
+    font-size: 20px;
+    font-family: "Gotham Pro Light";
+    position: relative;
+    margin-right: 50px;
+}
+
+.review-image::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    position: absolute;
+}
+.review-image > *{
+    position: relative;
+}
+
+.review-image-1{
+    background: #000 url('https://backend.magnit.tj/uploads/images/376307f070874ee04d0ec26486c29cf9-256x256.jpg');
+}
+.review-image-2{
+    background: #000 url('https://www.florissimo-shop.ru/upload/resize_cache/iblock/2f3/256_256_1/document-10bd1f9c-9979-4b02-b60b-706f94f45388-png-max.png');
+}
+.review-name{
+    margin-bottom: 7px;
+}
+.review-text{
+    font-size: 18px;
+    letter-spacing: 0.18px;
+    line-height: 1.4;
+}
+.review-link{
+    color: #f24841;
+    font-size: 18px;
+}
+.section-title{
+ font-size: 30px;
+ text-transform: uppercase;
+ text-align: center;
+ letter-spacing: 0.3px;
+}
+.advantages{
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    border-bottom: 1px solid #4c4c4c;
+    background: url('https://w-dog.ru/wallpapers/15/13/418896615047167.jpg') no-repeat center;
+    background-size: cover;
+}
+.advantages-wrapper{
+    min-height: 80px;
+    margin-bottom: 30px;
+}
+.advantages-image{
+    height: 90px;
+}
+.advantages-title{
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 1.4;
+    max-width: 270px;
+    margin: auto;
+}
+
+
+  
+.goods{
+      padding-top: 100px;
+      padding-bottom: 100px;
+      
+  }
+.section-description{
+      font-size: 18px;
+      text-align: center;
+  }
+.card{
+    text-align: center;
+    border: 3px solid #ffffff;
+    background-color: #292929 ;
+    padding: 33px 35px 30px 35px;
+    margin-top: 27px;
+}
+
+.card-title{
+    margin-top: 43px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.card-label{
+    font-size: 18px;
+    display: block;
+    margin-bottom: 7px;
+    margin-top: 20px;
+}
+.color-label{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.color-input{
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    z-index: -9;
+}
+.color-label.white{
+    background-color: #fff;
+}
+.color-label.biege{
+    background-color: #f7b496;
+}
+.color-label.pink{
+    background-color: #ed366e;
+}
+.color-label.red{
+    background-color: #ff0000;
+}
+.color-label.blue{
+    background-color: #12129d;
+}
+.counter-input{
+    border: 2px solid #fff;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #292929;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.counter-button{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #292929;
+    border: none;
+}
+.card-button{
+    font-size: 14px;
+    width: 100%;
+    padding-top: 16px;
+    padding-bottom: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.more{
+    font-size: 14px;
+    color: #f24841;
+    display: block;
+    text-align: center;
+    margin-top: 39px;
+    padding: 5px;
+}
+.more::after{
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 6px;
+    background: url('../img/Фигура\ 6.png') no-repeat center;
+    margin-left: 14px;
+    vertical-align: middle;
+}
+.offer{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #1a1a1a;
+    text-align: center;
+    background: url('https://w-dog.ru/wallpapers/15/13/418896615047167.jpg') no-repeat center;
+    background-size: cover;
+}
+.offer-link{
+    text-transform: uppercase;
+    display: block;
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 65px;
+    text-decoration: none;
+}
+.offer-label{
+    display: block;
+    margin-bottom: 22px;
+    font-size: 14px;   
+}
+.offer-phone{
+    font-size: 36px;
+    text-transform: none;
+    color: #fff;
+}
+.footer-menu{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 33px;
+}
+.footer-menu-link{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.footer-menu-item{
+    margin-right: 30px;
+}
+.social{
+    font-size: 16px;
+}
+.footer-label{
+    display: block;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+.footer-info{
+    text-align: right;
+}
+.footer-phone{
+    text-transform: none;
+    color: #fff;
+    font-size: 24px;
+    display: block;
+    margin-bottom: 12px;
+}
+.footer{
+    background: url('https://w-dog.ru/wallpapers/15/13/418896615047167.jpg') no-repeat center;
+    background-size: cover;
+}
+.second-footer{
+    background-color: #fff;
+    
+    
+}
+.footer-second-info{
+    font-family: "Gotham Pro Light";
+    letter-spacing: 0.04px;
+    font-size: 12px;
+    color: black ;
+}
+.footer-second-label{
+    display: block;
+    font-family: "Gotham Pro Light";
+    letter-spacing: 0.13px;
+    line-height: 1.2;
+    font-size: 12px;
+    color: #292929 ;
+    padding-top: 0px;
+    
+}
+.footer-label-second{
+    text-align: center;
+    display: block;
+    font-size: 14px;
+    margin-bottom: 12px;
+    color: #292929;
+}
+
+
+.second-footer{
+    background-color: #ffffff;
+}
+.gloacademy{
+    color: black;
+    text-align: center;
+}
+
+.modal{
+    display: none;
+    width: 500px;
+    height: 350px;
+    text-align: center;
+
+}
+.modal-2{
+    display: none;
+    width: 500px;
+    height: 350px;
+    text-align: center;
+
+}
+.modal-title{
+    color: #292929;
+}
+.modal-button{
+    width: 100%;
+}
+.modal-input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+}
+
+@media (max-width: 768px){
+    .header{
+        text-align: center;
+    }
+    .header-contacts{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero{
+        padding-top: 50px;
+    }
+    .hero-title{
+        font-size: 24px;  
+        margin-bottom: 20px;
+        line-height: 1.6;
+    }
+    .hero-description{
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    .button{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .colors{
+      max-width: 200px;
+      margin: auto;
+    }
+    .color-label{
+        margin: 20px auto;
+        margin-right: 10px;
+    }
+    .card{
+        width: 300px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .footer-info{
+        text-align-last: center;
+    }
+   
+}
+@media (max-width: 576px){
+    
+    .footer-info, .offer, .offer-title, .social{
+        text-align: center;
+    }
+    .second-footer{
+        text-align: center;
+    }
+    .footer-menu{
+        padding-left: 70px;
+    }
+    .footer-second-label{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .offer-phone{
+        font-size: 27px;
+    }
+    .offer-link{
+        font-size: 20px;
+    }
+    .social-link{
+        padding-left: 10px;
+    }
+    .review{
+        margin-top: 20px;
+    }
+    .review-link{
+        text-align: center;
+    }
+}
+
+    
+
+   
+    
